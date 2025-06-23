@@ -1,4 +1,4 @@
-# 💻 Sistema Integrado em Java e Web
+# Sistema Integrado em Java e Web
 
 Este repositório apresenta um **Sistema Integrado desenvolvido em Java para o backend e utilizando HTML/CSS para a interface de usuário (frontend)**.
 
