@@ -60,9 +60,4 @@ classDiagram
         bigint(20) id_verse
     }
 
-    acess --> users : user_id:id_user
-    bible_chapters --> bible_books : book_id:id_book
-    profile_book_read_progress --> bible_books : book_id:id_book
-    profile_book_read_progress --> profiles : profile_id:id_profile
-    profiles --> users : user_id:id_user
-    verse --> bible_chapters : id_chapter
+    
