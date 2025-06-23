@@ -1,0 +1,161 @@
+
+
+.profile-info .d-flex.justify-content-end {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 10px;
+}
+
+
+.profile-imagem-primary img {
+    margin-top: 50px;
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
+}
+
+
+header {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+
+.openbtn {
+    margin-right: 1rem;
+}
+
+.profile-img {
+
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+}
+
+.profile-imagem-primary {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu{
+    width: 30%;
+    
+}
+
+.offcanvas-header{
+    color: black;
+    background-color: #fff;
+}
+
+.offcanvas-header h5 {
+    flex: 1;
+}
+
+.custom-offcanvas{  
+    background-color: #fff;
+    
+}
+
+.custom-offcanvas a {  
+    text-decoration: none;
+    color: #333; 
+    padding: 15px;
+    margin-top: 2px; 
+    border-bottom: 1px solid #ccc; 
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+.custom-offcanvas a:hover {
+    background-color: #f0f0f0; 
+    color: #007bff;
+    transform: scale(1.05); 
+}
+
+
+.custom-offcanvas span.material-symbols-outlined {
+    font-size: 24px; 
+    color: #333;
+    transition: color 0.3s;
+}
+
+.custom-offcanvas a:hover span.material-symbols-outlined {
+    color: #007bff; 
+}
+
+
+
+@media (max-width: 768px) {
+
+    #menu{
+        width: 50%;
+        
+    }
+    
+
+
+    .custom-offcanvas a{
+        padding: 5px;
+        font-size: 14px;    
+        border-bottom: 0.5px solid #ccc;
+        transform: scale(1);
+    }
+    .custom-offcanvas a:hover {
+        background-color: #e0e0e0; 
+        color: #0056b3; 
+    }
+
+    .custom-offcanvas span.material-symbols-outlined {
+        font-size: 20px; 
+    }
+    .custom-offcanvas a:hover span.material-symbols-outlined {
+        color: #0056b3; 
+    }
+
+
+     header {
+        padding-left: 0.5rem; 
+        padding-right: 0.5rem;
+    }
+
+    .openbtn {
+        margin-right: 0.5rem;
+    }
+
+    .profile-imagem-primary img{
+        margin-top: 40px;
+        width: 100%; 
+        height: auto; 
+        max-height: 150px; 
+        object-fit: cover; 
+    }
+   
+    .profile-info img {
+        width: 100px;
+        height: 100px;
+    }
+
+    
+    .profile-info .d-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-info .d-flex div {
+        margin-top: 15px;
+    }
+
+
+    .profile-info .d-flex.justify-content-end {
+        position: static;
+        gap: 8px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+   
+}

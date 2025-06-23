@@ -1,0 +1,141 @@
+#sugestoesLeituras {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+#sugestoesLeituras.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#sugestoesLeituras a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+#sugestoesLeituras a:last-child {
+    border-bottom: none;
+}
+
+#sugestoesLeituras a:hover {
+    background-color: #f1f1f1;
+}
+
+.list-group-item img {
+    margin-right: 10px;
+}
+
+.list-group-item span {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding-top: 10px;
+    min-height: 300px;
+}
+
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding-top: 10px;;
+}
+
+
+
+.card img {
+    border-radius: 10px;
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: auto;
+    max-width: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body .btn {
+    align-self: center; /* Alinha o botão horizontalmente ao centro */
+    margin-top: auto; /* Faz com que o botão vá para a parte inferior */
+}
+
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 10px; 
+        justify-content: space-between;
+    }
+
+    .col-12 {
+        flex: 1 1 calc(50% - 10px); 
+        max-width: calc(50% - 10px); 
+        margin-bottom: 10px; 
+        padding: 1; 
+    }
+
+    .card img {
+        width: 80%; 
+        max-width: 80%;
+    }
+
+    .card-body {
+        padding: 5px; 
+    }
+}
+
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+body.page-transition {
+    background-color: black;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.card-title {
+    font-size: 1.2rem; 
+}
+
+.card-text {
+    color: gray;
+    font-size: 0.9rem; 
+}
+
+
+
+
+
+
+
+
+

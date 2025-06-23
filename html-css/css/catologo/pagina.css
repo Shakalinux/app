@@ -1,0 +1,26 @@
+body {
+    padding-top: 60px; 
+}
+.pagina-container {
+    padding: 20px;
+    height: 480px; 
+    width: 600px; 
+    overflow: auto; 
+    box-sizing: border-box;
+    margin: 0 15px;
+    font-family: 'Cantarell', sans-serif;
+    overflow: hidden; 
+    transition: opacity 0.5s ease;
+
+}
+.row {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: nowrap; 
+}
+
+.pagina-container p {
+    line-height: 1.3; 
+
+}
